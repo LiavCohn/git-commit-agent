@@ -22,12 +22,13 @@ This tool uses a free LLM API from [Groq](https://groq.com/) to automatically ge
   pip install requests
   ```
 
-You can add a custom task in .vscode/tasks.json:
+You can add a custom task in **.vscode/tasks.json**:
 
-{
+````{
 "label": "AI Commit Summary",
 "type": "shell",
 "command": "python replace-this-with-the-script-path"
-}
+}```
 
 Then run via Command Palette → Run Task → AI Commit Summary.
+````
